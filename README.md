@@ -2,14 +2,14 @@
 This platform will facilitate the management and evaluation of online quizzes by supporting two user roles: standard users and administrators. Standard users will be able to take quizzes within a defined time limit, while administrators will manage quiz creation, modification, and deletion, as well as categories, questions, and participant results. The platform is designed with modern technologies, including Spring Boot for backend services, React for frontend interfaces, and MySQL for data storage, ensuring a robust and scalable solution for comprehensive quiz management and knowledge assessment.
 ![image](https://github.com/user-attachments/assets/357c4b1f-66e1-4b3d-a6f5-71cc2b159029)
 Table of Contents
-Software architecture
+
 Docker Image
 Frontend
 Backend
 Getting Started
 Video Demonstration
 
-Software architecture
+
 Docker Image
 version: '3.9'
 services:
@@ -119,7 +119,7 @@ Run Backend:
 
 Start your XAMPP Apache and MySQL servers.
 Run the Spring Boot application. The database and entities will be created automatically.
-Verify that the backend is running by visiting http://localhost:8000 in your browser.
+Verify that the backend is running by visiting http://localhost:8085 in your browser.
 Frontend Setup:
 Install Node.js and Angular:
 
@@ -136,7 +136,7 @@ Run Frontend:
 
 After installing dependencies, start the Angular development server: bash ng serve
 
-Access the frontend at http://localhost:4200 in your browser.
+Access the frontend at http://localhost:3000 in your browser.
 
 Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
 
