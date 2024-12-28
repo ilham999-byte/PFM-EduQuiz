@@ -6,6 +6,7 @@ This platform will facilitate the management and evaluation of online quizzes by
 ## Table of Contents
 
 - [Docker Image](#docker-image)
+- [Software architecture].(#Software-architecture).
 - [Frontend](#frontend)
 - [Backend](#backend)
 - [Database Schema](#database-schema)
@@ -63,6 +64,9 @@ services:
     ports:
        - "8081:80"
 ```
+## Software architecture
+![Uploading FVMwXfWaUAA2hZi[1].jpg…]()
+
 
 
 ## Frontend
