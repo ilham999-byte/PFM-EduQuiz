@@ -1,16 +1,18 @@
 # EduQuiz Advanced Online Quiz Management Platform with Role-Based Functionality
 This platform will facilitate the management and evaluation of online quizzes by supporting two user roles: standard users and administrators. Standard users will be able to take quizzes within a defined time limit, while administrators will manage quiz creation, modification, and deletion, as well as categories, questions, and participant results. The platform is designed with modern technologies, including Spring Boot for backend services, React for frontend interfaces, and MySQL for data storage, ensuring a robust and scalable solution for comprehensive quiz management and knowledge assessment.
 ![image](https://github.com/user-attachments/assets/357c4b1f-66e1-4b3d-a6f5-71cc2b159029)
-Table of Contents
+## Table of Contents
+
+- [Docker Image](#docker-image)
+- [Frontend](#frontend)
+- [Backend](#backend)
+- [Getting Started](#getting-started)
+- [Video Demonstration](#video-demonstration)
+
+
 
 Docker Image
-Frontend
-Backend
-Getting Started
-Video Demonstration
 
-
-Docker Image
 version: '3.9'
 services:
   mysql:
@@ -56,7 +58,7 @@ services:
     ports:
       - "8081:80"
 
-      Frontend
+   Frontend
 Technologies Used
 React
 HTML
