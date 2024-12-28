@@ -57,8 +57,9 @@ services:
       PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - "8081:80"
-```yaml
+       - "8081:80"
+```
+
 
  ## Frontend
 Technologies Used
