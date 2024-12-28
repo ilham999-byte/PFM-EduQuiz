@@ -8,7 +8,7 @@ This platform will facilitate the management and evaluation of online quizzes by
 - [Docker Image](#docker-image)
 - [Frontend](#frontend)
 - [Backend](#backend)
-- [Database Schema].(#Database Schema).
+- [Database Schema](#database-schema)
 - [Getting Started](#getting-started)
 - [Video Demonstration](#video-demonstration)
 
@@ -75,8 +75,8 @@ services:
 - Technologies Used
   - Spring Boot
   - MySQL
-    
-  -Backend Project Structure
+
+-Backend Project Structure
 
 -The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
 
@@ -89,11 +89,13 @@ Entity Classes: The model package includes classes representing data entities in
 4. com.project.eduquiz.repository
 Repository Interfaces: The repository package contains interfaces that extend Spring Data JPA repositories. These interfaces provide methods for basic CRUD operations and are used by services to interact with the database.
 
--Dependencies
-  -Spring Data JPA:
-Purpose: Simplifies data access using JPA in Spring Boot.
-  -MySQL Connector/J:
-  Purpose: JDBC driver for connecting to a MySQL database.
+# Dependencies
+
+- **Spring Data JPA:**
+  - **Purpose**: Simplifies data access using JPA in Spring Boot.
+
+- **MySQL Connector/J:**
+  - **Purpose**: JDBC driver for connecting to a MySQL database.
 
 
 
