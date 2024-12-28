@@ -65,7 +65,8 @@ services:
        - "8081:80"
 ```
 ## Software architecture
-![Uploading FVMwXfWaUAA2hZi[1].jpg…]()
+![WhatsApp Image 2024-12-28 à 03 22 22_df7962bf](https://github.com/user-attachments/assets/ef536109-7f91-4067-a6cd-359fb49bf3fa)
+
 
 
 
