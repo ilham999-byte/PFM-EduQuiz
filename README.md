@@ -65,7 +65,6 @@ services:
        - "8081:80"
 ```
 ## Software architecture
-![WhatsApp Image 2024-12-28 à 03 22 22_cf30377f](https://github.com/user-attachments/assets/ad2e3fd3-eed9-4307-a135-8622947f0853)
 
 
 ## Frontend
