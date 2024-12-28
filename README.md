@@ -119,7 +119,8 @@ Repository Interfaces: The repository package contains interfaces that extend Sp
 ```
 ## Database Schema
 
-![Uploading WhatsApp Image 2024-12-28 à 03.34.53_40eddd24.jpg…]()
+![Uploading image.png…]()
+
 
 
 
