@@ -13,7 +13,7 @@ This platform will facilitate the management and evaluation of online quizzes by
 
 ## Docker Image
 
-## Docker Compose Configuration
+
 
 ```yaml
 version: '3.9'
@@ -58,9 +58,9 @@ services:
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "8081:80"
+```yaml
 
-
-   ## Frontend
+ ## Frontend
 Technologies Used
 React
 HTML
