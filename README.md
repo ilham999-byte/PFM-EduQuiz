@@ -76,9 +76,9 @@ services:
   - Spring Boot
   - MySQL
 
--Backend Project Structure
+#### Backend Project Structure
 
--The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
+The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
 
 1. com.project.eduquiz.EduquizApplication
 Main Application Class: Application.java serves as the entry point for the Spring Boot application. It includes the main method to start the application.
@@ -89,7 +89,7 @@ Entity Classes: The model package includes classes representing data entities in
 4. com.project.eduquiz.repository
 Repository Interfaces: The repository package contains interfaces that extend Spring Data JPA repositories. These interfaces provide methods for basic CRUD operations and are used by services to interact with the database.
 
--Dependencies
+#### Dependencies
 
 - **Spring Data JPA:**
   - **Purpose**: Simplifies data access using JPA in Spring Boot.
@@ -136,7 +136,6 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
   ```bash
   nvm install 14.11.0
 
-
 -Start your XAMPP Apache and MySQL servers.
 -Run the Spring Boot application. The database and entities will be created automatically.
 *Verify that the backend is running by visiting http://localhost:8085 in your browser.
@@ -158,7 +157,8 @@ Install Node.js and Angular:
 
 -Access the frontend at http://localhost:3000 in your browser.
 
--Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
+-Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure 
+ that all dependencies and prerequisites are correctly installed.
 
 ### Video Demonstration
 [Click here to watch the demonstration video](https://drive.google.com/file/d/1sL8DHas-0HjRg44KuKR9qmBH-l_ZG2wp/view?usp=sharing)
@@ -169,7 +169,7 @@ Install Node.js and Angular:
 </video>
 
 
-### Utilisation
+#### Utilisation
 -Authentification :
 Pour s'authentifier en tant que admin :
 Email : salma@gmail.com
