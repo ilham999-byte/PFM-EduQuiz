@@ -141,14 +141,17 @@ Certainly! Here are step-by-step instructions to set up and run your project loc
 -Run the Spring Boot application. The database and entities will be created automatically.
 *Verify that the backend is running by visiting http://localhost:8085 in your browser.
 #### Frontend Setup:
-Install Node.js and Angular:
+Install Node.js and React:
 
 -Open a new terminal for the frontend project.
--Ensure NVM is using Node.js version 14.11.0: nvm use 14.11.0.
--Install Angular CLI globally: npm install -g @angular/cli.
+-Ensure npm is using Node.js version 14.11.0: npm use 14.11.0.
+-- Install React CLI globally:
+  ```
+  npm install -g create-react-app
+```
 -Install Frontend Dependencies:
 
--Run the following commands in the frontend project folder: bash npm install
+-Run the following commands in the frontend project folder:  npm install
 
 -If you encounter errors during installation, use the following command: bash npm install --save --legacy-peer-deps
 
