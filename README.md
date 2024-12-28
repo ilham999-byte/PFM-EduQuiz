@@ -164,12 +164,11 @@ Access the frontend at http://localhost:3000 in your browser.
 
 Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
 
-## Video Demonstration
-Click the link below to watch a demonstration video:
-
+### Video Demonstration
+[Click here to watch the demonstration video](https://drive.google.com/file/d/1sL8DHas-0HjRg44KuKR9qmBH-l_ZG2wp/view?usp=sharing)
 
 <video width="640" height="360" controls>
-  <source src="https:/drive.google.com/file/d/1sL8DHas-0HjRg44KuKR9qmBH-l_ZG2wp/view?usp=sharing" type="video/mp4">
+  <source src="https://drive.google.com/uc?id=1sL8DHas-0HjRg44KuKR9qmBH-l_ZG2wp" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
 
