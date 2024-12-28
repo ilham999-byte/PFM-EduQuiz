@@ -9,7 +9,6 @@ This platform will facilitate the management and evaluation of online quizzes by
 - [Software Architecture](#Software-architecture).
 - [Frontend](#frontend)
 - [Backend](#backend)
-- [Database Schema](#database-schema)
 - [Getting Started](#getting-started)
 - [Use Case Diagram](#Use-Case-Diagram)
 - [Video Demonstration](#video-demonstration)
@@ -117,13 +116,6 @@ Repository Interfaces: The repository package contains interfaces that extend Sp
     </dependency>
 </dependencies>
 ```
-## Database Schema
-
-[images/WhatsApp%20Image%202024-12-28%20à%2003.48.42.jpg]
-
-
-
-
 
 
 
