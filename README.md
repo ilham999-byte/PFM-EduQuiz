@@ -171,14 +171,14 @@ Install Node.js and Angular:
 
 #### Utilisation
 -Authentification :
-Pour s'authentifier en tant que admin :
-Email : salma@gmail.com
-Mot de passe : salma
-Username: salma
--Pour s'authentifier en tant que utilisateur:
-Email : ilhamettouil999@gmail.com
-Mot de passe : ilham
-Username:ilham
+## Pour s'authentifier en tant que admin :
+-Email : salma@gmail.com
+-Mot de passe : salma
+*-Username: salma
+## Pour s'authentifier en tant que utilisateur:
+-Email : ilhamettouil999@gmail.com
+-Mot de passe : ilham
+-Username:ilham
 
 
 
