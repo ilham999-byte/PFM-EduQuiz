@@ -119,7 +119,7 @@ Repository Interfaces: The repository package contains interfaces that extend Sp
 ```
 ## Database Schema
 
-(images/WhatsApp%20Image%202024-12-28%20à%2003.48.42.jpg)
+[images/WhatsApp%20Image%202024-12-28%20à%2003.48.42.jpg]
 
 
 
