@@ -11,7 +11,7 @@ This platform will facilitate the management and evaluation of online quizzes by
 
 
 
-Docker Image
+## Docker Image
 
 version: '3.9'
 services:
@@ -58,13 +58,13 @@ services:
     ports:
       - "8081:80"
 
-   Frontend
+   ## Frontend
 Technologies Used
 React
 HTML
 CSS
 
-Backend
+## Backend
 Technologies Used
 Spring Boot
 MySQL
@@ -94,7 +94,7 @@ xml
     <artifactId>mysql-connector-java</artifactId>
     <scope>runtime</scope>
 </dependency>
-Getting Started
+## Getting Started
 Certainly! Here are step-by-step instructions to set up and run your project locally:
 
 Prerequisites:
@@ -142,7 +142,7 @@ Access the frontend at http://localhost:3000 in your browser.
 
 Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
 
-Video Demonstration
+## Video Demonstration
 Click the link below to watch a demonstration video:
 
 Utilisation
