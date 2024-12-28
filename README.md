@@ -69,9 +69,10 @@ services:
 
 
 ## Backend
-Technologies Used
-Spring Boot
-MySQL
+- Technologies Used
+  - Spring Boot
+  - MySQL
+  - 
 Backend Project Structure
 The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
 
@@ -83,37 +84,46 @@ Controller Classes: The controller package contains classes responsible for hand
 Entity Classes: The model package includes classes representing data entities in the application. These classes are annotated with JPA annotations, defining the structure of the database tables. Each entity typically corresponds to a table in the MySQL database.
 4. com.project.eduquiz.repository
 Repository Interfaces: The repository package contains interfaces that extend Spring Data JPA repositories. These interfaces provide methods for basic CRUD operations and are used by services to interact with the database.
-Dependencies
-Spring Data JPA:
-Purpose: Simplifies data access using JPA in Spring Boot.
-MySQL Connector/J: Purpose: JDBC driver for connecting to a MySQL database.
-xml
 
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-jpa</artifactId>
-</dependency>
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <scope>runtime</scope>
-</dependency>
+Dependencies
+- Spring Data JPA:
+Purpose: Simplifies data access using JPA in Spring Boot.
+ -MySQL Connector/J:
+  Purpose: JDBC driver for connecting to a MySQL database.
+
+
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+</dependencies>
+```
+
 ## Getting Started
 Certainly! Here are step-by-step instructions to set up and run your project locally:
 
-Prerequisites:
+- Prerequisites:
 Git:
 
 Make sure you have Git installed. If not, download and install it from git-scm.com.
-XAMPP:
 
-Install XAMPP from apachefriends.org.
-Start the Apache and MySQL servers in XAMPP.
-Ensure MySQL is using port 3306.
-Node Version Manager (NVM):
+- XAMPP:
 
-Install NVM from github.com/nvm-sh/nvm.
-Use NVM to install Node.js version 14.11.0: nvm install 14.11.0.
+  -Install XAMPP from apachefriends.org.
+  -start the Apache and MySQL servers in XAMPP.
+  -Ensure MySQL is using port 3306.
+-Node Version Manager (NVM):
+
+  -Install NVM from github.com/nvm-sh/nvm.
+  -Use NVM to install Node.js version 14.11.0: nvm install 14.11.0.
 Backend Setup:
 Clone the Project: bash git clone <repository_url> cd <project_folder>
 
