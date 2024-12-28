@@ -6,7 +6,7 @@ This platform will facilitate the management and evaluation of online quizzes by
 ## Table of Contents
 
 - [Docker Image](#docker-image)
-- [Software architecture].(#Software-architecture).
+- [Software Architecture](#Software-architecture).
 - [Frontend](#frontend)
 - [Backend](#backend)
 - [Database Schema](#database-schema)
