@@ -8,6 +8,7 @@ This platform will facilitate the management and evaluation of online quizzes by
 - [Docker Image](#docker-image)
 - [Frontend](#frontend)
 - [Backend](#backend)
+- [Database Schema].(#Database Schema).
 - [Getting Started](#getting-started)
 - [Video Demonstration](#video-demonstration)
 
@@ -168,7 +169,7 @@ Click the link below to watch a demonstration video:
 
 
 <video width="640" height="360" controls>
-  <source src="https://github.com/YourUsername/YourRepository/raw/main/demo-video.mp4" type="video/mp4">
+  <source src="https:/drive.google.com/file/d/1sL8DHas-0HjRg44KuKR9qmBH-l_ZG2wp/view?usp=sharing" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
 
