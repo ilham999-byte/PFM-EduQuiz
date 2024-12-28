@@ -89,7 +89,7 @@ Entity Classes: The model package includes classes representing data entities in
 4. com.project.eduquiz.repository
 Repository Interfaces: The repository package contains interfaces that extend Spring Data JPA repositories. These interfaces provide methods for basic CRUD operations and are used by services to interact with the database.
 
-# Dependencies
+-Dependencies
 
 - **Spring Data JPA:**
   - **Purpose**: Simplifies data access using JPA in Spring Boot.
@@ -117,54 +117,48 @@ Repository Interfaces: The repository package contains interfaces that extend Sp
 
 
 ## Getting Started
+
 Certainly! Here are step-by-step instructions to set up and run your project locally:
 
-- Prerequisites:
-Git:
+### Prerequisites
 
-Make sure you have Git installed. If not, download and install it from git-scm.com.
+#### Git:
+- Make sure you have Git installed. If not, download and install it from [git-scm.com](https://git-scm.com).
 
-- XAMPP:
+#### XAMPP:
+- Install XAMPP from [apachefriends.org](https://www.apachefriends.org).
+- Start the Apache and MySQL servers in XAMPP.
+- Ensure MySQL is using port 3306.
 
-  -Install XAMPP from apachefriends.org.
-  -start the Apache and MySQL servers in XAMPP.
-  -Ensure MySQL is using port 3306.
--Node Version Manager (NVM):
+#### Node Version Manager (NVM):
+- Install NVM from [github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm).
+- Use NVM to install Node.js version 14.11.0:
+  ```bash
+  nvm install 14.11.0
 
-  -Install NVM from github.com/nvm-sh/nvm.
-  -Use NVM to install Node.js version 14.11.0: nvm install 14.11.0.
 
--Backend Setup:
-Clone the Project: bash git clone <repository_url> cd <project_folder>
-
--Install Backend Dependencies:
-
-Open a terminal in the backend project folder.
-Run the following commands: bash mvn clean install
-Run Backend:
-
-Start your XAMPP Apache and MySQL servers.
-Run the Spring Boot application. The database and entities will be created automatically.
-Verify that the backend is running by visiting http://localhost:8085 in your browser.
-Frontend Setup:
+-Start your XAMPP Apache and MySQL servers.
+-Run the Spring Boot application. The database and entities will be created automatically.
+*Verify that the backend is running by visiting http://localhost:8085 in your browser.
+#### Frontend Setup:
 Install Node.js and Angular:
 
-Open a new terminal for the frontend project.
-Ensure NVM is using Node.js version 14.11.0: nvm use 14.11.0.
-Install Angular CLI globally: npm install -g @angular/cli.
-Install Frontend Dependencies:
+-Open a new terminal for the frontend project.
+-Ensure NVM is using Node.js version 14.11.0: nvm use 14.11.0.
+-Install Angular CLI globally: npm install -g @angular/cli.
+-Install Frontend Dependencies:
 
-Run the following commands in the frontend project folder: bash npm install
+-Run the following commands in the frontend project folder: bash npm install
 
-If you encounter errors during installation, use the following command: bash npm install --save --legacy-peer-deps
+-If you encounter errors during installation, use the following command: bash npm install --save --legacy-peer-deps
 
-Run Frontend:
+#### Run Frontend:
 
-After installing dependencies, start the React development server: npm start
+-After installing dependencies, start the React development server: npm start
 
-Access the frontend at http://localhost:3000 in your browser.
+-Access the frontend at http://localhost:3000 in your browser.
 
-Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
+-Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure that all dependencies and prerequisites are correctly installed.
 
 ### Video Demonstration
 [Click here to watch the demonstration video](https://drive.google.com/file/d/1sL8DHas-0HjRg44KuKR9qmBH-l_ZG2wp/view?usp=sharing)
@@ -175,7 +169,7 @@ Now, your full-stack project should be up and running locally. If you encounter 
 </video>
 
 
-Utilisation
+### Utilisation
 -Authentification :
 Pour s'authentifier en tant que admin :
 Email : salma@gmail.com
