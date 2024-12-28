@@ -61,11 +61,12 @@ services:
 ```
 
 
- ## Frontend
-Technologies Used
-React
-HTML
-CSS
+## Frontend
+- Technologies Used
+  - React
+  - HTML
+  - CSS
+
 
 ## Backend
 Technologies Used
