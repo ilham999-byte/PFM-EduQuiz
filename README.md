@@ -1,6 +1,8 @@
 # EduQuiz Advanced Online Quiz Management Platform with Role-Based Functionality
 This platform will facilitate the management and evaluation of online quizzes by supporting two user roles: standard users and administrators. Standard users will be able to take quizzes within a defined time limit, while administrators will manage quiz creation, modification, and deletion, as well as categories, questions, and participant results. The platform is designed with modern technologies, including Spring Boot for backend services, React for frontend interfaces, and MySQL for data storage, ensuring a robust and scalable solution for comprehensive quiz management and knowledge assessment.
+
 ![image](https://github.com/user-attachments/assets/357c4b1f-66e1-4b3d-a6f5-71cc2b159029)
+
 ## Table of Contents
 
 - [Docker Image](#docker-image)
@@ -73,7 +75,7 @@ services:
   - Spring Boot
   - MySQL
     
--Backend Project Structure
+  -Backend Project Structure
 
 -The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
 
@@ -86,10 +88,10 @@ Entity Classes: The model package includes classes representing data entities in
 4. com.project.eduquiz.repository
 Repository Interfaces: The repository package contains interfaces that extend Spring Data JPA repositories. These interfaces provide methods for basic CRUD operations and are used by services to interact with the database.
 
-Dependencies
-- Spring Data JPA:
+-Dependencies
+  -Spring Data JPA:
 Purpose: Simplifies data access using JPA in Spring Boot.
- -MySQL Connector/J:
+  -MySQL Connector/J:
   Purpose: JDBC driver for connecting to a MySQL database.
 
 
@@ -107,6 +109,9 @@ Purpose: Simplifies data access using JPA in Spring Boot.
     </dependency>
 </dependencies>
 ```
+## Database Schema
+![image](https://github.com/user-attachments/assets/b4ed76b7-8d29-4651-a94b-c86798cf311a)
+
 
 ## Getting Started
 Certainly! Here are step-by-step instructions to set up and run your project locally:
@@ -125,10 +130,11 @@ Make sure you have Git installed. If not, download and install it from git-scm.c
 
   -Install NVM from github.com/nvm-sh/nvm.
   -Use NVM to install Node.js version 14.11.0: nvm install 14.11.0.
-Backend Setup:
+
+-Backend Setup:
 Clone the Project: bash git clone <repository_url> cd <project_folder>
 
-Install Backend Dependencies:
+-Install Backend Dependencies:
 
 Open a terminal in the backend project folder.
 Run the following commands: bash mvn clean install
@@ -151,7 +157,7 @@ If you encounter errors during installation, use the following command: bash npm
 
 Run Frontend:
 
-After installing dependencies, start the Angular development server: bash ng serve
+After installing dependencies, start the React development server: npm start
 
 Access the frontend at http://localhost:3000 in your browser.
 
@@ -160,13 +166,20 @@ Now, your full-stack project should be up and running locally. If you encounter 
 ## Video Demonstration
 Click the link below to watch a demonstration video:
 
+
+<video width="640" height="360" controls>
+  <source src="https://github.com/YourUsername/YourRepository/raw/main/demo-video.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
+
+
 Utilisation
-Authentification :
+-Authentification :
 Pour s'authentifier en tant que admin :
 Email : salma@gmail.com
 Mot de passe : salma
 Username: salma
-Pour s'authentifier en tant que utilisateur:
+-Pour s'authentifier en tant que utilisateur:
 Email : ilhamettouil999@gmail.com
 Mot de passe : ilham
 Username:ilham
