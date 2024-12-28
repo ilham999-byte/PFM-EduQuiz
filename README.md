@@ -13,6 +13,9 @@ This platform will facilitate the management and evaluation of online quizzes by
 
 ## Docker Image
 
+## Docker Compose Configuration
+
+```yaml
 version: '3.9'
 services:
   mysql:
@@ -22,7 +25,6 @@ services:
       MYSQL_DATABASE: eduquiz
     ports:
       - "3306:3306"
-
   backend:
     build:
       context: ./eduquiz-backend
@@ -48,7 +50,6 @@ services:
     depends_on:
       - backend
 
-
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     environment:
@@ -57,6 +58,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "8081:80"
+
 
    ## Frontend
 Technologies Used
