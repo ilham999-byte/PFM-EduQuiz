@@ -65,6 +65,8 @@ services:
        - "8081:80"
 ```
 ## Software architecture
+![WhatsApp Image 2024-12-28 à 03 25 06_62bb0614](https://github.com/user-attachments/assets/81c94c02-d56a-4e94-85db-55a5cc3da967)
+
 
 
 ## Frontend
@@ -116,7 +118,9 @@ Repository Interfaces: The repository package contains interfaces that extend Sp
 </dependencies>
 ```
 ## Database Schema
-![WhatsApp Image 2024-12-28 à 03 25 06_62bb0614](https://github.com/user-attachments/assets/81c94c02-d56a-4e94-85db-55a5cc3da967)
+
+![Uploading image.png…]()
+
 
 ## Getting Started
 
