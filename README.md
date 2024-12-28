@@ -72,9 +72,10 @@ services:
 - Technologies Used
   - Spring Boot
   - MySQL
-  - 
-Backend Project Structure
-The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
+    
+-Backend Project Structure
+
+-The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
 
 1. com.project.eduquiz.EduquizApplication
 Main Application Class: Application.java serves as the entry point for the Spring Boot application. It includes the main method to start the application.
