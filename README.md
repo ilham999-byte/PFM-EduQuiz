@@ -10,6 +10,7 @@ This platform will facilitate the management and evaluation of online quizzes by
 - [Backend](#backend)
 - [Database Schema](#database-schema)
 - [Getting Started](#getting-started)
+- [Use Case Diagram](#Use-Case-Diagram)
 - [Video Demonstration](#video-demonstration)
 
 
@@ -159,6 +160,9 @@ Install Node.js and Angular:
 
 -Now, your full-stack project should be up and running locally. If you encounter any issues during setup, check the console logs for error messages and ensure 
  that all dependencies and prerequisites are correctly installed.
+ ## Use Case Diagram
+ ![image](https://github.com/user-attachments/assets/d8be015f-fdcc-45c8-bb9f-9ce7085b0d9f)
+
 
 ### Video Demonstration
 [Click here to watch the demonstration video](https://drive.google.com/file/d/1sL8DHas-0HjRg44KuKR9qmBH-l_ZG2wp/view?usp=sharing)
